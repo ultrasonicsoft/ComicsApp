@@ -1,0 +1,13 @@
+<div class="well well-sm">WELCOME TO APP</div>
+ 
+<button (click)= "get()"> get</button>
+
+<ul >
+     <li *ngFor="let character of allCharacters">
+         {{character.name}}
+         <div>
+            {{character.description}}
+         </div>
+         {{character.imageUrl}}
+ </li>
+ </ul>
